@@ -1,0 +1,178 @@
+{
+ "bill1.jpg": {
+  "items": [
+   {
+    "name": "Lahori Murgh Tandoori F",
+    "qty": 1,
+    "unit_price": 180,
+    "total": 180
+   },
+   {
+    "name": "Tsf Platter Paneer Aati",
+    "qty": 1,
+    "unit_price": 300,
+    "total": 300
+   },
+   {
+    "name": "Papad",
+    "qty": 5,
+    "unit_price": 15,
+    "total": 75
+   },
+   {
+    "name": "Assorted Veg Platter",
+    "qty": 2,
+    "unit_price": 250,
+    "total": 500
+   },
+   {
+    "name": "Tsf Platter Kadhai Pane",
+    "qty": 2,
+    "unit_price": 150,
+    "total": 300
+   },
+   {
+    "name": "Choice Of Juice",
+    "qty": 4,
+    "unit_price": 40,
+    "total": 160
+   },
+   {
+    "name": "Aerated Water",
+    "qty": 2,
+    "unit_price": 30,
+    "total": 60
+   },
+   {
+    "name": "Bottled Water",
+    "qty": 3,
+    "unit_price": 12,
+    "total": 36
+   },
+   {
+    "name": "Premium Whisky",
+    "qty": 4,
+    "unit_price": 25,
+    "total": 100
+   },
+   {
+    "name": "Beer Bottle",
+    "qty": 5,
+    "unit_price": 60,
+    "total": 300
+   }
+  ],
+  "charges": [
+   {
+    "type": "Service Charge",
+    "amount": 201.1
+   },
+   {
+    "type": "VAT",
+    "amount": 221.51
+   },
+   {
+    "type": "VAT",
+    "amount": 88
+   },
+   {
+    "type": "Round Off",
+    "amount": 0.39
+   }
+  ],
+  "subtotal": 2011,
+  "grand_total": 2522
+ },
+ "bill6.png": {
+  "items": [
+   {
+    "name": "Chicken 65 (Half)",
+    "qty": 1,
+    "unit_price": 190,
+    "total": 190
+   },
+   {
+    "name": "Butter Kulcha",
+    "qty": 2,
+    "unit_price": 40,
+    "total": 80
+   },
+   {
+    "name": "Cold Drink (500ml)",
+    "qty": 1,
+    "unit_price": 40,
+    "total": 40
+   }
+  ],
+  "charges": [
+   {
+    "type": "CGST",
+    "amount": 7.75
+   },
+   {
+    "type": "SGST",
+    "amount": 7.75
+   }
+  ],
+  "subtotal": 310,
+  "grand_total": 325.5
+ },
+ "bill8.jpg": {
+  "items": [
+   {
+    "name": "Kal Dosai - 2 Nos",
+    "qty": 1,
+    "unit_price": 65,
+    "total": 65
+   },
+   {
+    "name": "Parotha - 2 Nos",
+    "qty": 3,
+    "unit_price": 55,
+    "total": 165
+   }
+  ],
+  "charges": [
+   {
+    "type": "Discount",
+    "amount": -46
+   }
+  ],
+  "subtotal": 230,
+  "grand_total": 184
+ },
+ "bill10.jpg": {
+  "items": [
+   {
+    "name": "Mint Lemonade",
+    "qty": 2,
+    "unit_price": 179,
+    "total": 358
+   }
+  ],
+  "charges": [
+   {
+    "type": "Discount",
+    "amount": -17.9
+   },
+   {
+    "type": "CGST",
+    "amount": 8.5
+   },
+   {
+    "type": "SGST",
+    "amount": 8.5
+   },
+   {
+    "type": "Gas Crisis Charge",
+    "amount": 17.01
+   },
+   {
+    "type": "Round Off",
+    "amount": -0.11
+   }
+  ],
+  "subtotal": 358,
+  "grand_total": 374
+ }
+}

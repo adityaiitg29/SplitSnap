@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+numpy
+torch
+transformers
+tokenizers
+# tested with torch 2.14.1 (CPU) and transformers 5.19.0 on Python 3.13
