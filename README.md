@@ -60,7 +60,7 @@ Synthetic Indian bills (n=60): every metric 1.0. This is expected, because they 
 
 **Real Indian bills (collected from the internet, reported separately; n=4, deliberately hard):** a faded 2007 scan, a tiny POS print, a Zomato delivery slip and a watermarked photo. Valid output on 1 of 4 bills. Item precision 0.333, recall 0.063, **F1 0.105**. Charge F1 **0.0**. Subtotal accuracy 0.0. `[ADD grand-total accuracy from real_bills_metrics.json]`. This is far below the CORD result and confirms the domain gap; 16 fields is too few to draw conclusions, so treat it as an honest warning, not a precise estimate. The correction screen exists for exactly these bills: add or fix the items by hand and the split, charges and explanations still work.
 
-**Additional AI-generated test images:** 10 Indian bill images were generated with ChatGPT and kept as a separate, synthetic test set (never used for training, never counted as real bills). ChatGPT was used only offline to make test images; no closed API is called anywhere in the extraction pipeline. `[ADD their scores here if you run them]`
+**Additional AI-generated test images:** 10 Indian bill images were generated with ChatGPT and kept as a separate, synthetic test set (never used for training, never counted as real bills). ChatGPT was used only offline to make test images; no closed API is called anywhere in the extraction pipeline.
 
 **Confidence scores (R2):** each field gets the lowest token probability inside it. Calibration on 2,867 fields:
 
