@@ -37,7 +37,7 @@ python infer.py some_bill.jpg                     # or just print the JSON for o
 
 On a laptop CPU a scan takes a while (the image encoder runs at 1280x960). Wait for `[donut] ready for scans` before uploading. Optional settings: `SPLITSNAP_FAST=1` (int8 weights, faster on CPU), `SPLITSNAP_SIZE=960x720` (smaller input, faster but untested for accuracy), `PORT=8001`. On a GPU machine it uses CUDA automatically and a scan takes a few seconds. For a phone, open `http://<laptop-ip>:8000` on the same Wi-Fi.
 
-**Checkpoint:** `[PASTE DRIVE / HUGGING FACE LINK HERE]`  (about 800 MB: `model.safetensors`, `config.json`, `tokenizer.json`, `splitsnap_config.json` and friends).
+**Checkpoint:** `[https://drive.google.com/drive/folders/1mjRy_aDY-wS_oLlY_CKhuPC8u0iM7B0q?usp=sharing]`  (about 800 MB: `model.safetensors`, `config.json`, `tokenizer.json`, `splitsnap_config.json` and friends).
 
 ## The model
 
